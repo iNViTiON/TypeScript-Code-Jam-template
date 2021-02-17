@@ -1,0 +1,18 @@
+{
+  "name": "typescript-code-jam-template",
+  "version": "1.0.0",
+  "description": "TypeScript template for Google Code Jam",
+  "author": "iNViTiON",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "start": "ts-node --project tsconfig.json code.ts"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
